@@ -1,5 +1,7 @@
 ### BabyRSA
-
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 先看下题目的逻辑
 ``` py
 M = r * bytes_to_long('hctf{' + sha256(open('./flag').read()).hexdigest() + '}')
